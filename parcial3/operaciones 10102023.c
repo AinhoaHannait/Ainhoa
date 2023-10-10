@@ -66,7 +66,7 @@ int main ()
 			{
 				for(j=0; j<n; j++)
 				{
-					B[i][j] = rand () (9 + 1 - 1) + 1;
+					B[i][j] = rand () % (9 + 1 - 1) + 1;
 					printf("%d ", B[i][j]);
 				}
 				printf("\n");
