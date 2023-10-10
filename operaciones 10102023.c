@@ -9,7 +9,7 @@ int main ()
 	srand(time(NULL));
 	
 	printf ("Elige una operacion para hacer con matices\n"
-	"1=suma\t 2=resta\t 3=diagonaL 4=multiplicación \n");
+	"1=suma\t 2=resta\t 3=diagonaL 4=multiplicaciÃ³n \n");
 	scanf("%d", &resp);
 	
 	printf("ingrese la longitud de la matriz (para suma, resta, diagonal)\n");
@@ -103,28 +103,7 @@ int main ()
 	}
 	printf ("La suma de su diagonal es: %d\n", suma);
 	}
-		case 4:
-			printf("Matriz A\n");
-			for (i=0; i<n; i++)
-			{
-				for(j=0; j<n; j++)
-				{
-					A[i][j] = rand () % 10 +1;
-					printf("%d ", A[i][j]);
-				}
-				printf("\n");
-			}
-			printf("Matriz B\n");
-			for (i=0; i<n; i++)
-			{
-				for(j=0; j<n; j++)
-				{
-					B[i][j] = rand () % 10 +1;
-					printf("%d ", B[i][j]);
-				}
-				printf("\n");
-			}
-			printf("Matriz C\n")
+		
 	
 	return 0;
 }
