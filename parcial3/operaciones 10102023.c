@@ -24,7 +24,7 @@ int main ()
 			{
 				for(j=0; j<n; j++)
 				{
-					A[i][j] = rand () % 10 +1;
+					A[i][j] = rand () % (9 + 1 - 1) + 1;
 					printf("%d ", A[i][j]);
 				}
 				printf("\n");
@@ -34,7 +34,7 @@ int main ()
 			{
 				for(j=0; j<n; j++)
 				{
-					B[i][j] = rand () % 10 +1;
+					B[i][j] = rand () % (9 + 1 - 1) + 1;
 					printf("%d ", B[i][j]);
 				}
 				printf("\n");
@@ -56,7 +56,7 @@ int main ()
 			{
 				for(j=0; j<n; j++)
 				{
-					A[i][j] = rand () % 10 +1;
+					A[i][j] = rand () % (9 + 1 - 1) + 1;
 					printf("%d ", A[i][j]);
 				}
 				printf("\n");
@@ -66,7 +66,7 @@ int main ()
 			{
 				for(j=0; j<n; j++)
 				{
-					B[i][j] = rand () % 10 +1;
+					B[i][j] = rand () (9 + 1 - 1) + 1;
 					printf("%d ", B[i][j]);
 				}
 				printf("\n");
@@ -88,7 +88,7 @@ int main ()
 			{
 				for(j=0; j<n; j++)
 				{
-					A[i][j] = rand () % 10 +1;
+					A[i][j] = rand () % (9 + 1 - 1) + 1;
 					printf("%d ", A[i][j]);
 				}
 				printf("\n");
@@ -111,7 +111,7 @@ int main ()
 			{
 				for(j=0; j<n; j++)
 				{
-					A[i][j] = rand () % 10 +1;
+					A[i][j] = rand () % (9 + 1 - 1) + 1;
 					printf("%d ", A[i][j]);
 				}
 				printf("\n");
@@ -121,7 +121,7 @@ int main ()
 			{
 				for(j=0; j<n; j++)
 				{
-					B[i][j] = rand () % 10 +1;
+					B[i][j] = rand () % (9 + 1 - 1) + 1;
 					printf("%d ", B[i][j]);
 				}
 				printf("\n");
